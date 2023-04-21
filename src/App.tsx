@@ -1,5 +1,6 @@
 import React from 'react';
 
+import EntryForm from './components/forms/newEntryForm';
 
 function App() {
   return (
