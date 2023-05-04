@@ -1,11 +1,12 @@
-import React from 'react';
+import React, {FC} from 'react';
 
-import EntryForm from './components/forms/newEntryForm';
-
-function App() {
+import BudgetEntry from './components/forms/BudgetEntry';
+import Header from './components/headers/Header';
+const App: FC = () => {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Header/>
+      <BudgetEntry/>
     </div>
   );
 }
